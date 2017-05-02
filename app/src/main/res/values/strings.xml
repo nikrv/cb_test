@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Конвертер Валют</string>
+    <string name="amount">Сумма</string>
+    <string name="calculate">Расчитать</string>
+    <string name="progress_text">Загрузка информации</string>
+    <string name="result">Результат</string>
+    <string name="ok">OK</string>
+    <string name="default_amount">0</string>
+    <string name="errors">Ошибка</string>
+</resources>

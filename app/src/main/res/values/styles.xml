@@ -1,0 +1,45 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="ProgressDialogFragmentShadow">
+        <item name="android:background">@drawable/progress_dialog_fragment_shadow</item>
+    </style>
+
+    <style name="ProgressDialogFragmentDialog">
+        <item name="android:background">@drawable/progress_dialog_fragment_dialog</item>
+        <item name="android:layout_width">@dimen/progress_dialog_fragment_dialog_width</item>
+        <item name="android:layout_height">@dimen/progress_dialog_fragment_dialog_height</item>
+        <item name="android:layout_marginTop">@dimen/progress_dialog_fragment_dialog_marginTop</item>
+    </style>
+
+    <style name="ProgressDialogFragmentText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">@dimen/progress_dialog_fragment_dialog_text_paddingTop</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:text">@string/progress_text</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:textColor">@color/progress_dialog_fragment_text_color</item>
+    </style>
+
+    <style name="GenericProgressBackground" parent="android:Theme">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:background">#DD111111</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="GenericProgressIndicator" parent="@android:style/Widget.ProgressBar.Small">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:indeterminate">true</item>
+    </style>
+
+</resources>
